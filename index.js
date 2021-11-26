@@ -7,7 +7,7 @@ const hbs = require('hbs');
 //use bodyParser middleware
 const bodyParser = require('body-parser');
 //use mysql database
-const mysql = require('mysql');
+const mysql = require('mysql2');
 const app = express();
 
 //Create Connection
